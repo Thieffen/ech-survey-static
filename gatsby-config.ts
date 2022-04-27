@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `ech-survey-static`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [`gatsby-plugin-postcss`],
 }
 
 export default config

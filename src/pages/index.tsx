@@ -9,7 +9,7 @@ export default function Index() {
   // const { gender, questionnaire } = useOutletContext<AppContextType>();
 
   return (
-    <>
+    <main className="container mx-auto">
       <Steps
         className="mb-6"
         step1="current"
@@ -55,6 +55,6 @@ export default function Index() {
           className=""/>
       </div>
       {/*<Debug questionnaire={questionnaire} gender={gender} />*/}
-    </>
+    </main>
   );
 }
